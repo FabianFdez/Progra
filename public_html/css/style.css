@@ -1,0 +1,15 @@
+.footer{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    background: #CF000F;
+    height: 60px;
+    
+}
+.footer2{
+    color: #ffffff; 
+    width: 50%;
+    float: right;
+}
+

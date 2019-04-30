@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <title>Archivos de Correspondencia</title>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+       
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css" type="text/css"/>
+
+
+    </head>
+    <body>
+        <div style="background-color: #CF000F; height: 90px; ">
+            <img src="../img/logouniversidad.png" style="z-index: 1; width: 250px; height: 90px;"/>
+        </div>
+
+        <div class=" mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header" style="height:90%">
+            <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+                <div class="mdl-layout__header-row">
+                    <span class="mdl-layout-title">Archivos de Correspondencia</span>
+                    <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" id="search">
+                            <label class="mdl-textfield__label" for="search">Enter your query...</label>
+                        </div>
+                    </div>
+                 
+                </div>
+            </header>
+
+            <div    style="height:450px; width: 100%;">
+                <div class="container">
+                    <div class="row justify-content-center" style="padding-top: 5%" >
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header">Bienvenido</div>
+                                    
+                                <div class="card-body">
+                                    <form method="POST" action="">
+                                       
+                                        <div class="form-group row">
+                                            <label for="email" class="col-md-4 col-form-label text-md-right"></label>
+
+                                            <div class="col-md-6">
+                                                <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+
+                                                
+                                                <span class="invalid-feedback" role="alert">
+                                                </span>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label for="password" class="col-md-4 col-form-label text-md-right"></label>
+
+                                            <div class="col-md-6">
+                                                <input id="password" type="password" class="form-control" name="password" required>
+
+                                                
+                                                <span class="invalid-feedback" role="alert">
+                                                   
+                                                </span>
+                                               
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row mb-0">
+                                            <div class="col-md-8 offset-md-4">
+                                                <button type="submit" class="btn btn-primary">Login</button>
+
+
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class ="footer">
+            <footer>
+                <p class="footer2">© 2019 Universidad Nacional, Derechos Reservados.</p>
+            </footer>
+        </div>
+</html>
+

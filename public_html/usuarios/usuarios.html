@@ -1,0 +1,66 @@
+
+
+   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <header style="height: 120px; background-color: #CF000F" class="demo-header mdl-layout__header mdl-color-text--light-600">
+                    <div class="mdl-layout__header-row">
+                        <img src="../img/logouniversidad.png" style="z-index: 1; width: 250px; height: 90px;"  />
+                        <div style="margin-left: 38%;margin-top: 5%; width: 800px" ><span class="mdl-layout-title">Administracion de Usuarios</span></div>
+                        
+                        <div class="mdl-layout-spacer"></div>
+                        
+                        <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+                            <li><a class="dropdown-item" href="index.html" >Cerrar Sesion </a>
+                                        <form id="logout-form" action="" method="POST" style="display: none;">
+                                            
+                                        </form></li>
+                        </ul>
+                    </div>
+                </header> 
+<div class="">
+    <div class="row">
+        <div class="col-lg-6 mx-auto p-3 animate-in-down">
+            <form class="p-4 bg-light" method="post" action="">
+                
+                
+                <div>
+                    
+                    <button type="button" class="mdl-button mdl-color--blue-700" onclick="history.back()">
+                        <span >Volver</span>
+                    </button>
+                </div>
+                
+                <div class="form-group"> <label>ID:</label>
+                    <input class="form-control" type="text" placeholder="Cedula"  name="id" value=""> </div>
+                <div class="form-group"> <label>Nombre:</label>
+                    <input type="text" class="form-control" placeholder="Nombre "  name="nombre"  value=""> </div>
+                <div class="form-group"> <label>Apellido:</label>
+                    <input type="text" class="form-control" placeholder="Apellido"  name="apellido" value=""> </div>
+                <div class="form-group"> <label>Usuario:</label>
+                    <input type="text" class="form-control" placeholder="Usuario"  name="usuario" id="usuario" value=""> </div>
+                <div class="form-group"> <label>Email:</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email"  name="email" id="email" value=""> 
+                    </div>
+                </div>
+                <div class="form-group"> <label>Password:</label>
+                    <input type="password" class="form-control" placeholder="Password"  name="contrasena"  autocomplete="off"> </div>  
+                <div class="form-group"> <label>Modulos de Acceso:</label>
+                    <select name="manejo" class="form-control">
+                        <option >Seleccionar</option>
+                        <option  > ADMINISTRADOR</option>
+                        <option >COLABORADOR</option>
+                    </select>    
+                </div> 
+                
+                <button type="submit" class="btn mt-4 btn-block p-2 btn-outline-dark" ><b>Guardar</b></button>
+                <a href="" type="button" class="btn mt-4 btn-block p-2 btn-outline-dark" > <b>Cancelar</b> </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
